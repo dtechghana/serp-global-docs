@@ -1,0 +1,87 @@
+site_name: sERP Global Documentation
+site_description: Official documentation for sERP Global — comprehensive school management software for West African schools.
+site_author: Darrel Technologies Ltd
+site_url: https://docs.schoolerpglobal.com
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://schoolerpglobal.com
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Initial Setup: getting-started/index.md
+    - User Management: getting-started/user-management.md
+  - Deployment:
+    - Overview: deployment/index.md
+    - Country Profiles: deployment/country-profiles.md
+    - deployment.conf.php Reference: deployment/conf-reference.md
+    - Server Requirements: deployment/server-requirements.md
+  - Modules:
+    - Students & Admissions: modules/students.md
+    - Academic Management: modules/academic.md
+    - Fees & Finance: modules/finance.md
+    - HR & Payroll: modules/hr.md
+    - Communication & SMS: modules/communication.md
+    - Portals & Self-Service: modules/portals.md
+  - Country Guides:
+    - Overview: country-guides/index.md
+    - Ghana (GH): country-guides/gh.md
+    - Nigeria (NG): country-guides/ng.md
+    - Côte d'Ivoire (CI): country-guides/ci.md
+    - Senegal (SN): country-guides/sn.md
+    - Cameroon (CM): country-guides/cm.md
+  - Administration:
+    - System Settings: administration/settings.md
+    - Grading Scales: administration/grading-scales.md
+    - Backups & Data Export: administration/backups.md
