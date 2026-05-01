@@ -1,6 +1,6 @@
 # Country Guides Overview
 
-sERP Global is pre-configured for five West African countries. Each country deployment loads a **country profile** (`config/profiles/XX.php`) that sets the locale, currency, timezone, and academic framework.
+SchoolERP (sERP) ships with profiles for five countries (all currently in West/Central Africa), but the architecture supports deployment in any African country. Each deployment loads a **country profile** (`config/profiles/XX.php`) that sets the locale, currency, timezone, and academic framework.
 
 Select your country from the navigation for deployment-specific details.
 

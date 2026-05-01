@@ -1,6 +1,6 @@
 # Server Requirements
 
-sERP Global runs on a standard LAMP stack. No exotic extensions or proprietary software is required.
+SchoolERP (sERP) runs on a standard LAMP stack. No exotic extensions or proprietary software is required.
 
 ---
 

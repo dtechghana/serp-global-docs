@@ -1,6 +1,6 @@
 # Deployment Overview
 
-Each sERP Global installation is a **standalone, single-school deployment**. There is no shared database or multi-tenant infrastructure — every school runs its own isolated instance.
+Each SchoolERP (sERP) installation is a **standalone, single-school deployment**. There is no shared database or multi-tenant infrastructure — every school runs its own isolated instance.
 
 ---
 
@@ -19,7 +19,7 @@ Each sERP Global installation is a **standalone, single-school deployment**. The
 ## Deployment Steps (for system administrators)
 
 1. **Provision a server** meeting the [server requirements](server-requirements.md)
-2. **Clone or copy** the sERP Global codebase to the webroot
+2. **Clone or copy** the SchoolERP (sERP) codebase to the webroot
 3. **Create the database** and import the base schema (`db/schema.sql`)
 4. **Copy `includes/deployment.conf.php.example`** to `includes/deployment.conf.php`
 5. **Fill in all constants** in `deployment.conf.php` — use the [configuration reference](conf-reference.md)

@@ -1,6 +1,6 @@
-# sERP Global Documentation
+# SchoolERP (sERP) Documentation
 
-**sERP Global** is a comprehensive school management and administration platform for West African educational institutions — from pre-school through secondary (A-Level / WASSCE / BACCALAURÉAT). It is built and maintained by [Darrel Technologies Ltd](https://dtechghana.com) and is distributed through country-specific licensees.
+**SchoolERP (sERP)** is a comprehensive school management and administration platform for African educational institutions — from pre-school through secondary (A-Level / WASSCE / BACCALAURÉAT). It is built and maintained by [Darrel Technologies Ltd](https://dtechghana.com) and is distributed through country-specific licensees.
 
 ---
 
@@ -29,7 +29,7 @@
 
 ## Architecture
 
-sERP Global is a **siloed, per-school deployment**. Each school runs its own instance with:
+SchoolERP (sERP) is a **siloed, per-school deployment**. Each school runs its own instance with:
 
 - A dedicated subdomain (e.g. `yourschool.schoolerpghana.com`)
 - Its own isolated MySQL database
