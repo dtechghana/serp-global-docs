@@ -12,25 +12,7 @@
 | Setting | Value |
 |---------|-------|
 | Social security scheme | IPRES (retirement) / CSS (other) |
-| `SOCIAL_SECURITY_LABEL` | `IPRES / CSS` |
 | POS payment modes | Cash, Orange Money, Wave, Free Money, Bank Transfer, Cheque |
-
----
-
-## Country Profile Constants
-
-```php
-define('DEPLOYMENT_COUNTRY',    'SN');
-define('CURRENCY_CODE',         'XOF');
-define('CURRENCY_SYMBOL',       'CFA');
-define('CURRENCY_NAME',         'Franc CFA');
-define('CURRENCY_SUBUNIT',      'Centime');
-define('PHONE_COUNTRY_CODE',    '+221');
-define('DEPLOYMENT_TIMEZONE',   'Africa/Dakar');
-define('DEPLOYMENT_LANG',       'fr');
-define('ACADEMIC_FRAMEWORK',    'francophone_basic');
-define('DATA_RESIDENCY_COUNTRY','SN');
-```
 
 ---
 

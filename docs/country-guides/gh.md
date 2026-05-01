@@ -13,25 +13,7 @@
 | Setting | Value |
 |---------|-------|
 | Social security scheme | SSNIT |
-| `SOCIAL_SECURITY_LABEL` | `SSNIT` |
 | POS payment modes | Cash, MTN Mobile Money, Airtel Money, Tigo Cash, Vodafone Cash, Bank Deposit, Bank Transfer, Cheque |
-
----
-
-## Country Profile Constants
-
-```php
-define('DEPLOYMENT_COUNTRY',    'GH');
-define('CURRENCY_CODE',         'GHS');
-define('CURRENCY_SYMBOL',       '₵');
-define('CURRENCY_NAME',         'Cedi');
-define('CURRENCY_SUBUNIT',      'Pesewa');
-define('PHONE_COUNTRY_CODE',    '+233');
-define('DEPLOYMENT_TIMEZONE',   'Africa/Accra');
-define('DEPLOYMENT_LANG',       'en');
-define('ACADEMIC_FRAMEWORK',    'gh_basic');
-define('DATA_RESIDENCY_COUNTRY','GH');
-```
 
 ---
 
@@ -109,7 +91,7 @@ For the current GRA income tax bands, see [gra.gov.gh](https://gra.gov.gh).
 
 ## Data Residency
 
-Ghana deployments are hosted by Darrel Technologies Ltd within Ghana. Data is processed under the **Data Protection Act, 2012 (Act 843)** and the Data Protection Commission (DPC) framework.
+Ghana deployments are hosted in GDPR-compliant data centres. Data is processed under the **Data Protection Act, 2012 (Act 843)** and the Data Protection Commission (DPC) framework. Each school has an isolated database — your data is never shared with another school.
 
 ---
 

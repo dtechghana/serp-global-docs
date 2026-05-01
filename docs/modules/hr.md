@@ -50,19 +50,19 @@ Each staff member has a salary structure comprising a basic salary and one or mo
 
 ---
 
-## Social Security Number
+## Social Security / Pension Number
 
-Each staff record stores a national social security or pension registration number. The field label in the UI is driven by the deployment's `SOCIAL_SECURITY_LABEL` constant (set in `deployment.conf.php` from the country profile):
+Each staff record stores the national social security or pension registration number appropriate for your country. The label shown in the UI adapts automatically to match your country's scheme:
 
-| Country | Label | Scheme |
-|---------|-------|--------|
-| Ghana | SSNIT | Social Security and National Insurance Trust |
-| Nigeria | RSA / NHF | Retirement Savings Account / National Housing Fund |
-| Côte d'Ivoire | CNPS | Caisse Nationale de Prévoyance Sociale |
-| Senegal | IPRES / CSS | Institut de Prévoyance Retraite du Sénégal / Caisse de Sécurité Sociale |
-| Cameroon | CNPS | Caisse Nationale de Prévoyance Sociale |
+| Country | Scheme | Label shown |
+|---------|--------|-------------|
+| Ghana | Social Security and National Insurance Trust | SSNIT |
+| Nigeria | Retirement Savings Account / National Housing Fund | RSA / NHF |
+| Côte d'Ivoire | Caisse Nationale de Prévoyance Sociale | CNPS |
+| Senegal | IPRES / Caisse de Sécurité Sociale | IPRES / CSS |
+| Cameroon | Caisse Nationale de Prévoyance Sociale | CNPS |
 
-This label also appears in the payroll staff search, bank advice search, and user permission rows.
+This label appears on the staff record, in the payroll staff search, and on bank advice letters.
 
 ---
 

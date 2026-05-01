@@ -27,21 +27,8 @@
 
 ---
 
-## Architecture
-
-SchoolERP (sERP) is a **siloed, per-school deployment**. Each school runs its own instance with:
-
-- A dedicated subdomain (e.g. `yourschool.schoolerpghana.com`)
-- Its own isolated MySQL database
-- A `deployment.conf.php` file that configures locale, currency, and credentials
-
-The platform runs on a standard **LAMP stack** (PHP 7.4+, MySQL 8.0+, Apache 2.4+). There is no shared database or multi-tenant infrastructure.
-
----
-
 ## Quick Links
 
 - [Initial Setup Guide](getting-started/index.md)
-- [Deployment & Country Profiles](deployment/index.md)
-- [deployment.conf.php Reference](deployment/conf-reference.md)
 - [Country Guides](country-guides/index.md)
+- [Modules Overview](modules/students.md)

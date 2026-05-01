@@ -81,7 +81,7 @@ The academic calendar setting tells sERP the current term and academic year. sER
 3. Click **Save**
 
 !!! note
-    Most West African schools operate on a trimester (3-term) calendar. Configure the "Trimester" calendar at minimum.
+    Most schools operate on a trimester (3-term) calendar. Configure the "Trimester" calendar at minimum.
 
 ---
 

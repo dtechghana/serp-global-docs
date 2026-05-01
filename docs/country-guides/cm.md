@@ -12,25 +12,7 @@
 | Setting | Value |
 |---------|-------|
 | Social security scheme | CNPS |
-| `SOCIAL_SECURITY_LABEL` | `CNPS` |
 | POS payment modes | Cash, Orange Money, MTN Mobile Money, Bank Transfer, Cheque |
-
----
-
-## Country Profile Constants
-
-```php
-define('DEPLOYMENT_COUNTRY',    'CM');
-define('CURRENCY_CODE',         'XAF');
-define('CURRENCY_SYMBOL',       'FCFA');
-define('CURRENCY_NAME',         'Franc CFA');
-define('CURRENCY_SUBUNIT',      'Centime');
-define('PHONE_COUNTRY_CODE',    '+237');
-define('DEPLOYMENT_TIMEZONE',   'Africa/Douala');
-define('DEPLOYMENT_LANG',       'fr');
-define('ACADEMIC_FRAMEWORK',    'francophone_basic');
-define('DATA_RESIDENCY_COUNTRY','CM');
-```
 
 ---
 

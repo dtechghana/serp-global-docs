@@ -13,25 +13,7 @@
 | Setting | Value |
 |---------|-------|
 | Social security scheme | RSA (PenCom) / NHF |
-| `SOCIAL_SECURITY_LABEL` | `RSA / NHF` |
 | POS payment modes | Cash, Bank Transfer, Bank Deposit, POS Terminal, USSD Transfer, Cheque |
-
----
-
-## Country Profile Constants
-
-```php
-define('DEPLOYMENT_COUNTRY',    'NG');
-define('CURRENCY_CODE',         'NGN');
-define('CURRENCY_SYMBOL',       '₦');
-define('CURRENCY_NAME',         'Naira');
-define('CURRENCY_SUBUNIT',      'Kobo');
-define('PHONE_COUNTRY_CODE',    '+234');
-define('DEPLOYMENT_TIMEZONE',   'Africa/Lagos');
-define('DEPLOYMENT_LANG',       'en');
-define('ACADEMIC_FRAMEWORK',    'ng_basic');
-define('DATA_RESIDENCY_COUNTRY','NG');
-```
 
 ---
 
@@ -132,9 +114,8 @@ NHF contributions are deducted from all eligible employees:
 
 ## Data Residency & Compliance
 
-Nigeria deployments by PerAnkh Limited are hosted within Nigeria to comply with the **Nigerian Data Protection Act 2023 (NDPA)** and the **Nigeria Data Protection Regulation (NDPR) 2019**.
+Nigeria deployments are hosted in GDPR-compliant data centres. PerAnkh Limited processes school data in compliance with the **Nigerian Data Protection Act 2023 (NDPA)** and the **Nigeria Data Protection Regulation (NDPR) 2019**.
 
-- Data is hosted with Nigerian data centres (e.g. Rack Centre, Lagos; MainOne)
 - Each school has an isolated database — no cross-school data access
 - A **Data Processing Agreement (DPA)** is available on request from PerAnkh Limited
 
