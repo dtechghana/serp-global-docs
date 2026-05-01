@@ -19,6 +19,23 @@ Ensure backups are stored off-server (e.g. S3, Backblaze, or an external drive).
 
 ---
 
+## Running Database Migrations
+
+Schema migrations are stored in `db/migrations/` as numbered SQL files. Run them in order on each school deployment when upgrading.
+
+```bash
+mysql -u serp_user -p serp_schoolname < db/migrations/001_rename_ssnit_payroll_column.sql
+```
+
+| Migration | Description |
+|-----------|-------------|
+| `001_rename_ssnit_payroll_column.sql` | Renames `staff_payroll.ssnit` → `staff_payroll.social_security`. Required for all deployments after the pan-Africa update. |
+
+!!! warning "Run once per deployment"
+    Migrations are not idempotent by default. Running a migration twice will produce an error (MySQL `RENAME COLUMN` on a column that doesn't exist). Check the column name before running if unsure.
+
+---
+
 ## Manual Database Export
 
 To export the full school database from the server:

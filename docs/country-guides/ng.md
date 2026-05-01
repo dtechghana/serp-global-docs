@@ -8,6 +8,16 @@
 
 ---
 
+## Social Security & Payment Modes
+
+| Setting | Value |
+|---------|-------|
+| Social security scheme | RSA (PenCom) / NHF |
+| `SOCIAL_SECURITY_LABEL` | `RSA / NHF` |
+| POS payment modes | Cash, Bank Transfer, Bank Deposit, POS Terminal, USSD Transfer, Cheque |
+
+---
+
 ## Country Profile Constants
 
 ```php

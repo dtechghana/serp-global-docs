@@ -8,6 +8,16 @@
 
 ---
 
+## Social Security & Payment Modes
+
+| Setting | Value |
+|---------|-------|
+| Social security scheme | SSNIT |
+| `SOCIAL_SECURITY_LABEL` | `SSNIT` |
+| POS payment modes | Cash, MTN Mobile Money, Airtel Money, Tigo Cash, Vodafone Cash, Bank Deposit, Bank Transfer, Cheque |
+
+---
+
 ## Country Profile Constants
 
 ```php

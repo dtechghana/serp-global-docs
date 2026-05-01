@@ -31,6 +31,9 @@ define('DEPLOYMENT_LANG',      'en');
 // ── Academic ──────────────────────────────────────────────────────────────
 define('ACADEMIC_FRAMEWORK',   'ng_basic');
 
+// ── HR / Payroll ──────────────────────────────────────────────────────────
+define('SOCIAL_SECURITY_LABEL','RSA / NHF');
+
 // ── Data residency ────────────────────────────────────────────────────────
 define('DATA_RESIDENCY_COUNTRY','NG');
 ```
@@ -70,6 +73,12 @@ define('DATA_RESIDENCY_COUNTRY','NG');
 | `PHONE_COUNTRY_CODE` | Yes | `+234` | International dial code including `+` |
 | `DEPLOYMENT_TIMEZONE` | Yes | `Africa/Lagos` | PHP timezone string from the [tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) |
 | `DEPLOYMENT_LANG` | No | `en` | ISO 639-1 language code. Defaults to `en` if omitted. |
+
+### HR / Payroll
+
+| Constant | Required | Example | Description |
+|----------|----------|---------|-------------|
+| `SOCIAL_SECURITY_LABEL` | No | `RSA / NHF` | Short name of the national social security / pension scheme. Shown in payroll search labels, validation messages, and user permission rows. Defaults to `SSNIT` if omitted (preserves backward compatibility with existing Ghana deployments). |
 
 ### Academic
 

@@ -7,6 +7,16 @@
 
 ---
 
+## Social Security & Payment Modes
+
+| Setting | Value |
+|---------|-------|
+| Social security scheme | IPRES (retirement) / CSS (other) |
+| `SOCIAL_SECURITY_LABEL` | `IPRES / CSS` |
+| POS payment modes | Cash, Orange Money, Wave, Free Money, Bank Transfer, Cheque |
+
+---
+
 ## Country Profile Constants
 
 ```php

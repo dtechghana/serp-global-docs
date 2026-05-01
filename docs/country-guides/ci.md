@@ -7,6 +7,16 @@
 
 ---
 
+## Social Security & Payment Modes
+
+| Setting | Value |
+|---------|-------|
+| Social security scheme | CNPS |
+| `SOCIAL_SECURITY_LABEL` | `CNPS` |
+| POS payment modes | Cash, Orange Money, MTN Mobile Money, Wave, Bank Transfer, Cheque |
+
+---
+
 ## Country Profile Constants
 
 ```php

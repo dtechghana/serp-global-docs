@@ -23,17 +23,22 @@ Each profile file returns a PHP array with the following keys:
 ```php
 <?php
 return [
-    'name'                => 'Nigeria',
-    'iso2'                => 'NG',
-    'currency_code'       => 'NGN',
-    'currency_symbol'     => '₦',
-    'currency_name'       => 'Naira',
-    'currency_subunit'    => 'Kobo',
-    'phone_country_code'  => '+234',
-    'timezone'            => 'Africa/Lagos',
-    'locale'              => 'en',
-    'academic_framework'  => 'ng_basic',
-    'data_residency'      => 'NG',
+    'name'                  => 'Nigeria',
+    'iso2'                  => 'NG',
+    'currency_code'         => 'NGN',
+    'currency_symbol'       => '₦',
+    'currency_name'         => 'Naira',
+    'currency_subunit'      => 'Kobo',
+    'phone_country_code'    => '234',       // digits only, no '+'
+    'timezone'              => 'Africa/Lagos',
+    'lang'                  => 'en',
+    'framework'             => 'ng_basic',  // maps to config/frameworks/ng_basic.php
+    'data_residency'        => 'NG',
+    'social_security_label' => 'RSA / NHF', // shown in payroll UI labels
+    'payment_modes'         => [            // POS payment modes — order is stored in DB
+        'Cash', 'Bank Transfer', 'Bank Deposit',
+        'POS Terminal', 'USSD Transfer', 'Cheque',
+    ],
 
     '_conf_snippet' => <<<'CONF'
 define('DEPLOYMENT_COUNTRY',   'NG');
@@ -46,6 +51,7 @@ define('DEPLOYMENT_TIMEZONE',  'Africa/Lagos');
 define('DEPLOYMENT_LANG',      'en');
 define('ACADEMIC_FRAMEWORK',   'ng_basic');
 define('DATA_RESIDENCY_COUNTRY','NG');
+define('SOCIAL_SECURITY_LABEL','RSA / NHF');
 define('DB_HOST',              'localhost');
 define('DB_NAME',              'serp_ng_schoolname');
 define('DB_USER',              'root');
@@ -62,13 +68,13 @@ The `_conf_snippet` key contains a ready-to-use `deployment.conf.php` block. The
 
 ## Available Profiles
 
-| File | Country | Currency | Timezone | Language |
-|------|---------|----------|----------|----------|
-| `gh.php` | Ghana | GHS (₵) | Africa/Accra | en |
-| `ng.php` | Nigeria | NGN (₦) | Africa/Lagos | en |
-| `ci.php` | Côte d'Ivoire | XOF (CFA) | Africa/Abidjan | fr |
-| `sn.php` | Senegal | XOF (CFA) | Africa/Dakar | fr |
-| `cm.php` | Cameroon | XAF (FCFA) | Africa/Douala | fr |
+| File | Country | Currency | Timezone | Language | SS Label |
+|------|---------|----------|----------|----------|----------|
+| `gh.php` | Ghana | GHS (₵) | Africa/Accra | en | SSNIT |
+| `ng.php` | Nigeria | NGN (₦) | Africa/Lagos | en | RSA / NHF |
+| `ci.php` | Côte d'Ivoire | XOF (CFA) | Africa/Abidjan | fr | CNPS |
+| `sn.php` | Senegal | XOF (CFA) | Africa/Dakar | fr | IPRES / CSS |
+| `cm.php` | Cameroon | XAF (FCFA) | Africa/Douala | fr | CNPS |
 
 ---
 
@@ -108,9 +114,11 @@ Application code reads locale values through static methods on `LocaleConfig`:
 | `LocaleConfig::currencySymbol()` | Currency symbol | `₦` |
 | `LocaleConfig::currencyName()` | Currency name | `Naira` |
 | `LocaleConfig::currencySubunit()` | Subunit name | `Kobo` |
-| `LocaleConfig::phoneCode()` | Dial code | `+234` |
+| `LocaleConfig::phoneCountryCode()` | Dial code digits | `234` |
 | `LocaleConfig::timezone()` | Timezone string | `Africa/Lagos` |
 | `LocaleConfig::deploymentLang()` | Language code | `en` |
-| `LocaleConfig::country()` | ISO 2-letter code | `NG` |
+| `LocaleConfig::dataResidencyCountry()` | ISO 2-letter code | `NG` |
+| `LocaleConfig::socialSecurityLabel()` | SS scheme name for payroll UI | `RSA / NHF` |
+| `LocaleConfig::paymentModes()` | Ordered POS payment mode array | `['Cash', 'Bank Transfer', ...]` |
 
 These read from the `define()` constants in `deployment.conf.php`. They never touch the database.
