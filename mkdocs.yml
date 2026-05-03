@@ -70,11 +70,27 @@ nav:
     - Portals & Self-Service: modules/portals.md
   - Country Guides:
     - Overview: country-guides/index.md
-    - Ghana (GH): country-guides/gh.md
-    - Nigeria (NG): country-guides/ng.md
-    - Côte d'Ivoire (CI): country-guides/ci.md
-    - Senegal (SN): country-guides/sn.md
-    - Cameroon (CM): country-guides/cm.md
+    - West Africa:
+      - Ghana (GH): country-guides/gh.md
+      - Nigeria (NG): country-guides/ng.md
+      - Côte d'Ivoire (CI): country-guides/ci.md
+      - Senegal (SN): country-guides/sn.md
+      - Cameroon (CM): country-guides/cm.md
+      - Sierra Leone (SL): country-guides/sl.md
+      - Liberia (LR): country-guides/lr.md
+      - The Gambia (GM): country-guides/gm.md
+      - Benin (BJ): country-guides/bj.md
+      - Burkina Faso (BF): country-guides/bf.md
+      - Mali (ML): country-guides/ml.md
+      - Niger (NE): country-guides/ne.md
+      - Togo (TG): country-guides/tg.md
+      - Guinea (GN): country-guides/gn.md
+    - East Africa:
+      - Kenya (KE): country-guides/ke.md
+      - Uganda (UG): country-guides/ug.md
+      - Tanzania (TZ): country-guides/tz.md
+      - Rwanda (RW): country-guides/rw.md
+      - Ethiopia (ET): country-guides/et.md
   - Administration:
     - System Settings: administration/settings.md
     - Grading Scales: administration/grading-scales.md
