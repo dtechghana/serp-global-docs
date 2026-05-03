@@ -31,8 +31,7 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.follow
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  logo: assets/serp-logo-white.png
 
 extra:
   social:
