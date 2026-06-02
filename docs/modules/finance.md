@@ -113,3 +113,77 @@ Automated SMS reminders can be sent to guardians with outstanding balances:
 4. Confirm the message template (editable) and click **Send**
 
 SMS usage is deducted from the school's SMS credit balance.
+
+---
+
+## Fixed Assets Register
+
+Track every physical asset owned by the school — from buildings and ICT equipment to laboratory apparatus and vehicles.
+
+### Asset Categories
+
+Go to **Fixed Assets → Categories** to manage categories. Each category defines a default useful life (years) and depreciation rate. Seven categories are pre-seeded (Buildings, Vehicles, ICT Equipment, Fixtures & Fittings, Furniture, Land, Laboratory Equipment).
+
+### Adding an Asset
+
+1. Go to **Fixed Assets → Register → Add Asset**
+2. Select a category — the asset code is generated automatically (e.g. `FA-ICT-0001`)
+3. Enter acquisition date, cost, salvage value, useful life, and depreciation method (Straight-Line or Declining Balance)
+
+### Depreciation
+
+Go to **Fixed Assets → Depreciation** to compute annual depreciation in bulk or per asset. Results show opening value, annual charge, and closing book value for each year.
+
+### Disposals
+
+Open an asset's detail view and click **Dispose** to record a sale, write-off, or damage event. The asset status updates automatically.
+
+---
+
+## Double-Entry Accounting
+
+A complete double-entry bookkeeping system with automatic posting of school financial transactions.
+
+### Chart of Accounts
+
+Go to **Accounting → Chart of Accounts** to manage accounts. Five account types are supported: Asset, Liability, Equity, Revenue, and Expense. A default chart is seeded on installation and can be extended or customised.
+
+### Financial Periods
+
+Create periods under **Accounting → Periods** (e.g. "Term 1 2025"). Close a period to lock it against further posting.
+
+### Journals
+
+| Type | Purpose |
+|------|---------|
+| Receipt | Income received |
+| Payment | Expenditure paid |
+| Contra | Internal transfer between accounts |
+| Journal | Manual general ledger adjustment |
+| Payroll | Monthly payroll entry |
+
+Every journal must balance (debits = credits). Journals can be reversed, creating a mirror entry.
+
+### Auto-Posting
+
+The following transactions post to the ledger automatically:
+
+- Fee payments (billable and non-billable)
+- POS / store sales
+- Canteen payments
+- Expenditure records
+- Monthly payroll (via **Accounting → Sync → Payroll**)
+
+Posting failures are logged under **Accounting → Posting Failures**.
+
+### Financial Reports
+
+| Report | Description |
+|--------|-------------|
+| Trial Balance | Debit/credit totals per account |
+| Income Statement | Revenue vs expenses (surplus/deficit) |
+| Balance Sheet | Assets, liabilities, equity as at a date |
+| General Ledger | Running balance for one account |
+| Budget vs Actual | Budgeted vs actual per period |
+
+Export data to **CSV** or **IIF** (QuickBooks import format) from the Reports page.

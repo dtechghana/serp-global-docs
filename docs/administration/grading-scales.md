@@ -13,8 +13,49 @@ sERP ships with the following built-in scales:
 | `primary` | Generic primary school scale (A–F) |
 | `gh_bece` | WAEC BECE scale for Ghana (A1–F9) |
 | `gh_wassce` | WAEC WASSCE scale for Ghana (A1–F9) |
+| `cambridge` | Cambridge Lower Secondary (A*–U with GPA 4.0–0.0) |
+| `preschool` | Preschool / Nursery & Kindergarten (A–E / R.E.S.) |
+| `montessori` | Montessori mastery-based scale (M, P, I, N) |
 
 These cannot be edited or deleted. If your country uses a different set of boundaries for the same grade labels, create a custom scale.
+
+### Cambridge Lower Secondary
+
+Eight bands for Cambridge International Lower Secondary programmes. CGPA is the GPA equivalent of the student's cumulative average score across subjects.
+
+| Grade | Range | GPA | Remark |
+|-------|-------|-----|--------|
+| A* | 90–100 | 4.0 | Excellent |
+| A | 80–89 | 3.5 | Excellent |
+| B | 70–79 | 3.0 | Very Good |
+| C | 60–69 | 2.5 | Good |
+| D | 50–59 | 2.0 | Credit |
+| E | 40–49 | 1.5 | Pass |
+| F | 30–39 | 1.0 | Weak |
+| U | 0–29 | 0.0 | Ungraded |
+
+### Preschool
+
+Five bands for Nursery, KG, and early childhood programmes:
+
+| Grade | Range | Remark |
+|-------|-------|--------|
+| A | 80–100 | Excellent |
+| B | 70–79 | Very Good |
+| C | 60–69 | Good |
+| D | 50–59 | Satisfactory |
+| E | 0–49 | R.E.S. (Requires Effort and Special Attention) |
+
+### Montessori
+
+Mastery-based scale without GPA, used with Montessori or competency-based frameworks:
+
+| Grade | Range | Remark |
+|-------|-------|--------|
+| M | 80–100 | Mastered |
+| P | 60–79 | Progressing |
+| I | 40–59 | Introduced |
+| N | 0–39 | Not Attempted |
 
 ---
 
