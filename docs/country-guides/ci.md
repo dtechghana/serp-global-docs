@@ -70,5 +70,5 @@ Côte d'Ivoire's MENA (Ministère de l'Éducation Nationale) system:
 
 - CFA Franc (XOF) is shared with Senegal and other UEMOA countries
 - The academic year runs from September to June
-- Côte d'Ivoire operates on GMT+0 year-round (same as Ghana/Accra)
+- Côte d'Ivoire operates on GMT+0 year-round (no daylight saving)
 - French is the language of instruction; sERP labels can be adjusted per deployment

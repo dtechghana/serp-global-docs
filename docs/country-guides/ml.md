@@ -70,6 +70,6 @@ Mali's Ministère de l'Éducation Nationale system:
 ## Notes
 
 - XOF is shared across UEMOA countries; the exchange rate to EUR is fixed
-- Mali operates on GMT+0 year-round (same as Ghana/Accra)
+- Mali operates on GMT+0 year-round (no daylight saving)
 - The academic year typically runs October to July
 - French is the official language of instruction

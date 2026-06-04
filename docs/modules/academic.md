@@ -26,8 +26,6 @@ Grading scales define the grade labels, score boundaries, and remarks for a subj
 | Scale name | Exam body | Range |
 |------------|-----------|-------|
 | `primary` | Generic primary | A–F with numerical boundaries |
-| `gh_bece` | WAEC (BECE — Ghana) | A1–F9 |
-| `gh_wassce` | WAEC (WASSCE — Ghana) | A1–F9 |
 
 Additional scales can be created in **Settings → Academic Settings → Custom Grading Scales**.
 

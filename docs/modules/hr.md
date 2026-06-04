@@ -56,7 +56,6 @@ Each staff record stores the national social security or pension registration nu
 
 | Country | Scheme | Label shown |
 |---------|--------|-------------|
-| Ghana | Social Security and National Insurance Trust | SSNIT |
 | Nigeria | Retirement Savings Account / National Housing Fund | RSA / NHF |
 | Côte d'Ivoire | Caisse Nationale de Prévoyance Sociale | CNPS |
 | Senegal | IPRES / Caisse de Sécurité Sociale | IPRES / CSS |
@@ -69,14 +68,6 @@ This label appears on the staff record, in the payroll staff search, and on bank
 ## Statutory Deductions
 
 Statutory deductions are computed automatically based on the country profile:
-
-=== "Ghana (GH)"
-    | Deduction | Basis |
-    |-----------|-------|
-    | Income Tax (PAYE) | GRA income tax bands (PITA Ghana) |
-    | SSNIT (employee 5.5%) | Gross salary |
-    | SSNIT (employer 13%) | Gross salary |
-    | Tier 2 / Trustee | Configurable % of salary |
 
 === "Nigeria (NG)"
     | Deduction | Basis |

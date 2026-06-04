@@ -70,6 +70,6 @@ Togo's Ministère des Enseignements Primaire et Secondaire system:
 ## Notes
 
 - XOF is shared across UEMOA countries; the exchange rate to EUR is fixed
-- Togo operates on GMT+0 year-round (same as Ghana/Accra)
+- Togo operates on GMT+0 year-round (no daylight saving)
 - The academic year runs from October to July
 - French is the language of instruction; Ewe and Kabiye are national languages

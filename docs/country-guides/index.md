@@ -1,6 +1,6 @@
 # Country Guides Overview
 
-sERP ships with profiles for 19 countries across West and East Africa. Each deployment loads a **country profile** (`config/profiles/XX.php`) that sets the locale, currency, timezone, and academic framework.
+sERP ships with profiles for 18 countries across West and East Africa. Each deployment loads a **country profile** (`config/profiles/XX.php`) that sets the locale, currency, timezone, and academic framework.
 
 Select your country from the navigation for deployment-specific details.
 
@@ -10,7 +10,6 @@ Select your country from the navigation for deployment-specific details.
 
 | Country | Currency | Timezone | Lang | Framework | Licensee |
 |---------|----------|----------|------|-----------|---------|
-| [Ghana](gh.md) | GHS (₵) | Africa/Accra | en | gh_basic | Darrel Technologies Ltd |
 | [Nigeria](ng.md) | NGN (₦) | Africa/Lagos | en | ng_basic | PerAnkh Limited |
 | [Côte d'Ivoire](ci.md) | XOF (CFA) | Africa/Abidjan | fr | francophone_basic | *(contact Darrel Technologies)* |
 | [Senegal](sn.md) | XOF (CFA) | Africa/Dakar | fr | francophone_basic | *(contact Darrel Technologies)* |

@@ -68,5 +68,5 @@ Sierra Leone's Ministry of Basic and Senior Secondary Education (MBSSE) system:
 
 - Sierra Leone re-denominated its currency in 2022; 1 SLE = 1,000 old SLL
 - The academic year runs from September to July
-- Sierra Leone operates on GMT+0 year-round (same as Ghana/Accra)
+- Sierra Leone operates on GMT+0 year-round (no daylight saving)
 - English is the language of instruction

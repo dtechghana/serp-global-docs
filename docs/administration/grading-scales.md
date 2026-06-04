@@ -11,8 +11,6 @@ sERP ships with the following built-in scales:
 | Scale name | Description |
 |------------|-------------|
 | `primary` | Generic primary school scale (A–F) |
-| `gh_bece` | WAEC BECE scale for Ghana (A1–F9) |
-| `gh_wassce` | WAEC WASSCE scale for Ghana (A1–F9) |
 | `cambridge` | Cambridge Lower Secondary (A*–U with GPA 4.0–0.0) |
 | `preschool` | Preschool / Nursery & Kindergarten (A–E / R.E.S.) |
 | `montessori` | Montessori mastery-based scale (M, P, I, N) |

@@ -8,7 +8,6 @@
 
 | Country | Licensee | Domain |
 |---------|----------|--------|
-| 🇬🇭 Ghana | Darrel Technologies Ltd | schoolerpghana.com |
 | 🇳🇬 Nigeria | PerAnkh Limited | schoolerpnigeria.com |
 | 🇨🇮 Côte d'Ivoire | *(contact Darrel Technologies)* | — |
 | 🇸🇳 Senegal | *(contact Darrel Technologies)* | — |

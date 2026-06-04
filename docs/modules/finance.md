@@ -167,25 +167,6 @@ The statement can be shared with parents during fee discussions or provided on r
 
 ---
 
-## USSD &amp; Mobile Money Transaction Log
-
-A dedicated log of all USSD and mobile money payment requests with real-time status tracking.
-
-1. Go to **Finance → USSD / Mobile Money Log**
-2. The log lists every payment request with the initiating number, amount, reference, and current status (pending, confirmed, failed)
-3. Click **Confirm** to manually reconcile a payment that has been received but not automatically matched
-4. Click **Reject** to dismiss a failed or duplicate request
-
-!!! info "Country-specific payment methods"
-    The payment methods available in this log depend on your deployment:
-    
-    - **Nigeria** — USSD transfer (e.g. *737#, *901#) via local bank networks
-    - **Ghana** — MTN Mobile Money, Vodafone Cash, AirtelTigo Money via USSD or app
-
-Finance staff can use this log to confirm receipts, reconcile end-of-day collections, and follow up on pending transactions without relying on manual bank notifications.
-
----
-
 ## Fixed Assets Register
 
 Track every physical asset owned by the school — from buildings and ICT equipment to laboratory apparatus and vehicles.

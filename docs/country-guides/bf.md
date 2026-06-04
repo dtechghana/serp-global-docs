@@ -70,6 +70,6 @@ Burkina Faso's Ministère de l'Éducation Nationale system:
 ## Notes
 
 - XOF is shared across UEMOA countries; the exchange rate to EUR is fixed
-- Burkina Faso operates on GMT+0 year-round (same as Ghana/Accra)
+- Burkina Faso operates on GMT+0 year-round (no daylight saving)
 - The academic year runs from October to July
 - French is the language of instruction; Moore, Dioula and other national languages are widely spoken
