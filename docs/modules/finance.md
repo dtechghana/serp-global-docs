@@ -116,6 +116,76 @@ SMS usage is deducted from the school's SMS credit balance.
 
 ---
 
+## Fee Credits &amp; Advance Payments
+
+Record a credit against a student's account before a bill is raised — for example, when a parent pays a term early or a scholarship credit needs to be applied.
+
+1. Go to **Finance → Student Account → Add Credit**
+2. Enter the **Amount**, **Date**, and **Reference**
+3. Click **Save** — the credit appears on the student's account immediately
+
+When the next bill is prepared for that student, any available credit is automatically applied and the payable balance is reduced accordingly. Credits are visible on the student's statement of accounts and on receipts.
+
+---
+
+## Payment Refunds
+
+Issue a formal refund when a payment needs to be returned to a parent or guardian.
+
+1. Go to **Finance → Payment History**
+2. Find the original payment and click **Refund**
+3. Enter the **Refund Amount** (full or partial), **Date**, and **Reason**
+4. Click **Process Refund**
+
+Every refund is date-stamped, attributed to the processing staff member, and reflected in the student's statement of accounts. Refunds do not alter or delete the original payment record.
+
+---
+
+## Bill Write-offs
+
+Write off a balance that cannot be recovered — keeping accounts clean and reports accurate without deleting historical data.
+
+1. Go to **Finance → Student Account**
+2. Find the student and click **Write Off Balance**
+3. Enter the **Amount**, **Date**, and **Reason**
+4. Click **Confirm Write-off**
+
+Written-off amounts appear on the student's statement with a "Write-off" label. The original bill and any payments remain intact.
+
+---
+
+## Student Statement of Accounts
+
+A complete, chronological financial statement per student — every bill, payment, credit, refund, and write-off in a single view.
+
+1. Go to **Finance → Student Account** and search for the student
+2. Click **View Statement**
+3. Filter by **Date Range** or view the full history
+4. Click **Print** to generate a printable PDF statement
+
+The statement can be shared with parents during fee discussions or provided on request as a formal account summary.
+
+---
+
+## USSD &amp; Mobile Money Transaction Log
+
+A dedicated log of all USSD and mobile money payment requests with real-time status tracking.
+
+1. Go to **Finance → USSD / Mobile Money Log**
+2. The log lists every payment request with the initiating number, amount, reference, and current status (pending, confirmed, failed)
+3. Click **Confirm** to manually reconcile a payment that has been received but not automatically matched
+4. Click **Reject** to dismiss a failed or duplicate request
+
+!!! info "Country-specific payment methods"
+    The payment methods available in this log depend on your deployment:
+    
+    - **Nigeria** — USSD transfer (e.g. *737#, *901#) via local bank networks
+    - **Ghana** — MTN Mobile Money, Vodafone Cash, AirtelTigo Money via USSD or app
+
+Finance staff can use this log to confirm receipts, reconcile end-of-day collections, and follow up on pending transactions without relying on manual bank notifications.
+
+---
+
 ## Fixed Assets Register
 
 Track every physical asset owned by the school — from buildings and ICT equipment to laboratory apparatus and vehicles.
