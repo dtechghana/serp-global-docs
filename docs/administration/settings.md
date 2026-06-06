@@ -21,14 +21,37 @@ The settings area in sERP covers global configuration options that affect all us
 
 ### Academic Calendar
 
-Configures the current active term and academic year, separately for Trimester and Semester calendars.
+Manage calendar entries and set the active term from a single page. Access it via **Settings → Academic → wrench icon** next to *Default Academic Year / Term*.
+
+The page has three areas:
+
+- **Add Calendar Entry** (left form) — create a new entry
+- **Active Calendars** (top-right panel) — shows the currently active entry for Trimester and for Semester
+- **All Entries** (table) — lists every entry with Activate and Delete actions
+
+#### Adding an entry
 
 | Field | Description |
 |-------|-------------|
-| Academic Year | e.g. `2025/2026` |
-| Term | e.g. `First Term` |
-| Start Date | First day of the term |
-| End Date | Last day of the term |
+| Academic Year | Start and end years, e.g. `2025 / 2026` |
+| Label | Optional display name — defaults to `Default` if left blank |
+| Category | `Trimester` or `Semester` |
+| Term/Semester | `First`, `Second`, or `Third` |
+| Begins | First day of the term/semester |
+| Ends | Last day of the term/semester |
+
+Click **Add Entry**. The row is injected into the All Entries table immediately without a page reload.
+
+#### Activating an entry
+
+Click **Activate** on any row. The Active Calendars panel refreshes instantly and the row is highlighted green. Only one entry per category can be active at a time; the previously active entry reverts to inactive automatically.
+
+#### Deleting an entry
+
+Click the trash icon on a row and confirm. Two restrictions apply:
+
+- An **active** entry cannot be deleted — activate a different entry first, then delete the old one.
+- The delete button is only shown to users with **administrator access** (access level 100).
 
 ### CA Components
 
