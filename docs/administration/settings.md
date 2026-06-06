@@ -9,7 +9,7 @@ The settings area in sERP covers global configuration options that affect all us
 | Setting | Description |
 |---------|-------------|
 | School Name | Full name of the school — appears on reports, receipts, and the login page |
-| School Logo | PNG/JPG logo used on terminal reports and the nav header |
+| School Logo | JPEG logo used on terminal reports and the nav header. After uploading, a crop overlay appears — draw a selection box over the area to use and click **Crop Image** to confirm. |
 | School Address | Printed on official documents |
 | School Phone / Email | Printed on official documents and used in automated messages |
 | Student ID Prefix | Prefix for auto-generated student IDs |
@@ -111,3 +111,20 @@ Test the gateway configuration using the **Send Test SMS** button after saving c
 - A warning banner if any required constants are missing or set to placeholder values
 
 This page is useful for verifying configuration after setup or after an update.
+
+---
+
+## Export Data
+
+**Settings → Export Data** is restricted to administrators (access level 100).
+
+Select one or more datasets and click **Export Selected**:
+
+| Dataset | Description | Filters |
+|---------|-------------|---------|
+| Students | Personal details, guardian contacts, account status | Class; Status (active / withdrawn / all) |
+| Staff | Personal details, department, employment type, salary | — |
+| Classes | Class list with active and withdrawn student counts | — |
+| Fee Payments | All recorded payments with receipt numbers and dates | Term; Academic year |
+
+A single selected dataset downloads as a `.csv` file. Multiple datasets download as a `.zip` archive with one CSV per dataset. All files are UTF-8 with BOM for Excel compatibility. Export actions are recorded in the activity log.

@@ -16,6 +16,7 @@ sERP provides export functions within the application for common data sets. No t
 
 | Data | Location | Format |
 |------|----------|--------|
+| Bulk data export (students, staff, classes, payments) | Settings → Export Data | CSV / ZIP |
 | Student list | Students → Student List → Export | CSV / Excel |
 | Academic results | Academic → Terminal Reports → Export | PDF / CSV |
 | Fee collection | Finance → Reports → Export | CSV / Excel |
