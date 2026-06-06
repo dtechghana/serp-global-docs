@@ -23,7 +23,7 @@ Enter your school's name, logo, address, and contact information. This informati
 
 1. Go to **Settings → General Settings**
 2. Fill in all fields in the **School Details** section
-3. Upload your school logo (PNG or JPG, recommended size: 300×100 px)
+3. Upload your school logo (JPEG format; after selecting the file a crop overlay will appear — draw a selection box and click **Crop Image** to confirm)
 4. Click **Save**
 
 ---
@@ -74,14 +74,15 @@ Divisions are broad groupings of classes (e.g. Primary, JSS, SSS; or Basic, JHS,
 
 ## 7. Configure the Academic Calendar
 
-The academic calendar setting tells sERP the current term and academic year. sERP supports both a **Trimester** (3-term) and **Semester** (2-term) structure.
+The academic calendar tells sERP the current term and academic year. sERP supports both a **Trimester** (3-term) and **Semester** (2-term) structure.
 
-1. Go to **Settings → Academic Settings → Academic Calendar**
-2. Set the current **Academic Year** and **Term** for each calendar category in use
-3. Click **Save**
+1. Go to **Settings → Academic Settings** and click the wrench icon next to **Default Academic Year / Term**
+2. In the **Add Calendar Entry** form, fill in the Academic Year, Category (Trimester or Semester), Term, and the term start and end dates
+3. Click **Add Entry** — the new entry appears in the **All Entries** table
+4. Click **Activate** on the row to make it the active term
 
 !!! note
-    Most schools operate on a trimester (3-term) calendar. Configure the "Trimester" calendar at minimum.
+    Most schools operate on a trimester (3-term) calendar. Add and activate a Trimester entry at minimum. Repeat for Semester if your school uses it.
 
 ---
 
