@@ -67,6 +67,8 @@ nav:
     - Fees, Finance & Accounting: modules/finance.md
     - HR & Payroll: modules/hr.md
     - Communication & SMS: modules/communication.md
+    - Library: modules/library.md
+    - Canteen: modules/canteen.md
     - Portals & Self-Service: modules/portals.md
   - Country Guides:
     - Overview: country-guides/index.md

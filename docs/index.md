@@ -19,9 +19,13 @@
 
 - **Students & Admissions** — complete student register, multi-campus enrolment, attendance, health, and disciplinary records
 - **Academic Management** — CA-driven assessments, configurable grading scales, terminal reports, and exam timetabling
-- **Fees & Finance** — billing, collections, partial payments, receipts, debtors, and financial reports
+- **Fees & Finance** — billing, collections, partial payments, receipts, debtors, credits, refunds, and write-offs
+- **Fixed Assets Register** — asset catalogue, straight-line and declining-balance depreciation, disposals
+- **Double-Entry Accounting** — full chart of accounts, journals, auto-posting, trial balance, income statement, and balance sheet
 - **HR & Payroll** — staff records, monthly payroll, statutory deductions (country-specific), pay slips
-- **Communication & SMS** — bulk SMS to parents/staff, automated alerts, in-app messaging
+- **Communication & SMS** — bulk SMS to parents/staff, automated alerts, in-app messaging, parent–teacher conferences
+- **Library** — book catalogue, issue and return tracking, overdue reporting
+- **Canteen** — daily meal subscriptions, per-student payment recording, class and term summaries
 - **Portals** — parent, student, and teacher self-service portals with role-based access
 
 ---
