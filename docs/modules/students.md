@@ -71,6 +71,13 @@ When a student is marked absent, an automated SMS can be sent to the student's g
 1. Go to **Settings → SMS Settings**
 2. Toggle **Absence Alert SMS** to on
 
+### Biometric attendance
+
+!!! note
+    Available since **sERP v2.1**.
+
+In addition to manual entry above, student attendance can be captured automatically from a fingerprint, facial recognition, or card-based biometric device. See [Biometric Attendance](biometric.md) for device setup, mapping, and settings.
+
 ---
 
 ## Health Records

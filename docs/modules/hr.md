@@ -123,6 +123,13 @@ Bank advice letters list each staff member's net pay for direct bank lodgement o
 3. Select the staff member, leave type (annual, sick, maternity, etc.), start and end dates
 4. Approved leave is deducted from the staff member's leave balance
 
+### Biometric attendance
+
+!!! note
+    Available since **sERP v2.1**.
+
+In addition to manual entry above, staff attendance can be captured automatically from a fingerprint, facial recognition, or card-based biometric device, with a configurable late-arrival cutoff and optional SMS notification. See [Biometric Attendance](biometric.md) for device setup, mapping, and settings.
+
 ---
 
 ## Documents
