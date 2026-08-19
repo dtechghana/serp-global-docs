@@ -12,7 +12,7 @@ The settings area in sERP covers global configuration options that affect all us
 | School Logo | JPEG logo used on terminal reports and the nav header. After uploading, a crop overlay appears — draw a selection box over the area to use and click **Crop Image** to confirm. |
 | School Address | Printed on official documents |
 | School Phone / Email | Printed on official documents and used in automated messages |
-| Student ID Prefix | Prefix for auto-generated student IDs |
+| Correspondence Reference Prefix | Prefix used only when numbering correspondence letters — not student IDs. Student ID prefixes are configured per campus; see [Student ID Generation](../modules/students.md#student-id-generation). |
 | Staff ID Prefix | Prefix for auto-generated staff IDs |
 
 ---
@@ -71,6 +71,7 @@ See the dedicated [Grading Scales](grading-scales.md) documentation.
 | Discount Types | Predefined discount categories (e.g. Staff Child, Scholarship) |
 | Payment Methods | Accepted payment methods shown on receipts |
 | Invoice Prefix | Prefix for auto-generated invoice numbers |
+| Payment Gateway | Paystack secret key for [online payments](../modules/finance.md#online-payments) — required before parents/students can pay fees online |
 
 ---
 

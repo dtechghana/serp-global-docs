@@ -53,6 +53,26 @@ sERP fully supports partial payments. If a parent pays part of their bill, the s
 
 ---
 
+## Online Payments
+
+Parents and students can pay school fees online by card, mobile money, or bank transfer, via [Paystack](https://paystack.com).
+
+**Setup (admin, one-time):**
+
+1. Go to **Settings → Payment Gateway**
+2. Enter your school's Paystack secret key
+3. Save — online payments are unavailable until this is configured
+
+**Paying online (parent/student portal):**
+
+1. From the portal's **Fees** page, click **Pay Online Now**
+2. Enter an email address and the amount to pay
+3. Submit — this redirects to Paystack's hosted checkout page to complete payment
+
+Once Paystack confirms the transaction, the payment is posted to the student's fee account the same way an admin-recorded payment is — arrears, custom bills, and fee items are settled in the same priority order, any overpayment is credited to the student's account, and a receipt and SMS confirmation are sent automatically.
+
+---
+
 ## Receipts
 
 After recording a payment, a printable receipt is generated automatically. To reprint a receipt:

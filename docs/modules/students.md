@@ -23,12 +23,12 @@ The students module manages the complete lifecycle of a student — from first a
 Student IDs are generated automatically in the format:
 
 ```
-[PREFIX]-[CLASS CODE]-[SEQUENCE NUMBER]
+[PREFIX]/[CLASS CODE]/[SEQUENCE NUMBER]
 ```
 
-For example, with prefix `KAS` and class code `JSS1A`, the first student gets `KAS-JSS1A-001`.
+For example, with prefix `KAS` and class code `JSS1A`, the first student gets `KAS/JSS1A/001`.
 
-Configure the prefix in **Settings → General Settings → Student ID Prefix**.
+Each campus has its own prefix — configure it from **Students → Campuses → Edit Campus**, next to **Student ID Prefix**. There is no single school-wide prefix; every campus needs its own configured before students can be auto-registered there.
 
 ---
 
@@ -42,6 +42,29 @@ To move a student to a different class:
 4. Click **Confirm Transfer**
 
 The student's previous class is retained in the transfer history.
+
+---
+
+## Managing Campuses
+
+For schools with more than one location, campuses are managed from **Students → Campuses**.
+
+**Adding a campus:**
+
+1. From the "Add Campus" pane, enter the campus name
+2. Click **Add Campus** — you can add several at once using the (+) icon
+
+**Editing a campus:**
+
+1. From the campus list, click the edit icon
+2. Update any of:
+    - **Campus Name**
+    - **Campus Emblem** — used in place of the school's main emblem on bills, reports, and receipts generated for students at this campus. Leave empty to fall back to the school's main emblem.
+    - **Headmaster's Signature** — automatically appended to terminal reports and other documents that require it
+    - **Student ID Prefix** — see [Student ID Generation](#student-id-generation). Every campus should have its own prefix set.
+3. Click **Modify Campus**
+
+**Deleting a campus:** click the delete icon from the campus list and confirm.
 
 ---
 
