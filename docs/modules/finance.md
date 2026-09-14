@@ -2,6 +2,9 @@
 
 The finance module covers the complete billing lifecycle — from setting up fee schedules through to end-of-term financial summaries. All amounts are in the local currency of the deployment (set by `CURRENCY_CODE` in `deployment.conf.php`).
 
+!!! note
+    For schools with more than one campus, a staff user restricted to a single campus (see [User Management](../getting-started/user-management.md)) only sees and manages fees, bills, reminders, and debtors belonging to their own campus throughout this module.
+
 ---
 
 ## Fee Items
@@ -60,8 +63,11 @@ Parents and students can pay school fees online by card, mobile money, or bank t
 **Setup (admin, one-time):**
 
 1. Go to **Settings → Payment Gateway**
-2. Enter your school's Paystack secret key
-3. Save — online payments are unavailable until this is configured
+2. Enter your school's Paystack **Public Key** and **Secret Key**, from your Paystack dashboard
+3. Save — online payments are unavailable until both are configured
+
+!!! note
+    The Secret Key is encrypted at rest. Once saved, the field shows a placeholder instead of the actual key — leave it blank when saving other changes to keep the existing key, or enter a new one to replace it.
 
 **Paying online (parent/student portal):**
 

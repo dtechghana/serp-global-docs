@@ -23,10 +23,10 @@ The students module manages the complete lifecycle of a student — from first a
 Student IDs are generated automatically in the format:
 
 ```
-[PREFIX]/[CLASS CODE]/[SEQUENCE NUMBER]
+[PREFIX]/[ADMISSION YEAR]/[SEQUENCE NUMBER]
 ```
 
-For example, with prefix `KAS` and class code `JSS1A`, the first student gets `KAS/JSS1A/001`.
+For example, with prefix `KAS`, a student admitted in 2026 gets `KAS/2026/001`. The sequence number is a single running count per campus — it doesn't reset each year and doesn't depend on class code.
 
 Each campus has its own prefix — configure it from **Students → Campuses → Edit Campus**, next to **Student ID Prefix**. There is no single school-wide prefix; every campus needs its own configured before students can be auto-registered there.
 

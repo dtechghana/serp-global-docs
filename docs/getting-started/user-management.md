@@ -14,7 +14,7 @@ sERP supports three types of user accounts: **staff**, **student**, and **guardi
         - Select **Staff** as the user type
         - In **Link User to Staff**, search for and select the staff member
         - The staff member must already have a record under **HR → Staff**
-        - For schools with more than one campus, a **Campus** field appears — select the campus this user should be restricted to. They'll only see students, staff, and reports belonging to that campus.
+        - For schools with more than one campus, a **Campus** field appears — select the campus this user should be restricted to. They'll only see students, staff, reports, and finance information (fees, bills, debtors, and payments) belonging to that campus.
         - One of the selectable staff types, **Multi-Campus Administrator**, isn't restricted to a single campus — leave Campus unselected for this type. They can switch between campuses (or view all at once) from the campus switcher in the main navigation.
 
     === "Student"

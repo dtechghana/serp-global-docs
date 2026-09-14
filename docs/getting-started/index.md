@@ -98,7 +98,7 @@ Add all classes your school currently runs.
     - **Campus**: the campus this class belongs to
     - **Division**: the division grouping (e.g. Primary)
     - **Class Teacher**: assign a class teacher (staff must already be added)
-    - **Class Code**: a short code used for student ID generation (e.g. `P1A`)
+    - **Class Code**: a short identifying code for the class (e.g. `P1A`), shown on enrolment reports — not used in student ID generation, see [Student ID Generation](../modules/students.md#student-id-generation)
 4. Click **Add Class**
 
 ---
