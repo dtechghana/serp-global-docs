@@ -193,6 +193,35 @@ The statement can be shared with parents during fee discussions or provided on r
 
 ---
 
+## Store & Inventory (Point of Sale)
+
+Record direct sales of school store/shop stock (uniforms, stationery, snacks, and similar items) to students or walk-in customers — separate from fee billing. Each sale automatically decrements the stock quantity of every item sold.
+
+!!! note
+    For schools with more than one campus, a staff user restricted to a single campus only sees and manages Store & Inventory sales belonging to their own campus throughout this module.
+
+### Recording a Sale
+
+1. Go to **Finance → Store & Inventory → New Sale**
+2. Select the student (or enter walk-in customer details) the sale is for
+3. Add each item being sold, with its quantity
+4. Click **Save** — sERP generates a receipt and deducts the quantity sold from each item's stock
+
+### Cancelling a Sale
+
+Cancel a sale that was recorded in error — for example, a wrong item or quantity.
+
+1. Go to **Finance → Store & Inventory → Sales**
+2. Click the **Cancel Sale** icon next to the sale in the list, or open the sale's receipt and click **Cancel Sale**
+3. Enter a **Reason** for cancelling
+4. Click **Cancel Sale** to confirm
+
+Cancelling reverses the stock for every item in the sale — the quantity sold is added back to inventory automatically, and logged in each item's own stock adjustment history. The sale record itself is never deleted: it's kept with a "Cancelled" status, along with who cancelled it, when, and why, all shown if the sale is viewed or a cancellation is attempted again. A cancelled sale no longer appears in the default Sales list (which only shows completed sales), but remains reachable directly via its receipt link, which shows a "Cancelled" badge in place of the usual print option.
+
+A cashier can cancel a sale they recorded themselves; an admin or super admin can cancel any sale. Cancelling is controlled by its own access permission, separate from viewing the module or recording a sale — an admin must grant it explicitly for staff who need to cancel sales.
+
+---
+
 ## Fixed Assets Register
 
 Track every physical asset owned by the school — from buildings and ICT equipment to laboratory apparatus and vehicles.
