@@ -56,6 +56,10 @@ The default split is determined by the [academic framework](../deployment/countr
 
 Within the CA allocation, you can define multiple sub-components (e.g. Class Test 10%, Homework 5%, Mid-Term 15%). Components are configured in **Settings → Academic Settings → CA Components** and apply globally.
 
+### Subject Assignment
+
+Each class has its own list of assigned subjects, set from **Academic → Classes → Edit Class**. Score entry, curriculum planning, and exam scheduling only offer subjects assigned to the selected class, keeping dropdowns limited to what's actually taught there.
+
 ---
 
 ## Entering Scores
@@ -93,6 +97,15 @@ Terminal reports are generated automatically from the scores entered. They inclu
 !!! tip
     Ensure all subject scores are entered before generating reports. Students with missing scores will show incomplete reports.
 
+### Publishing reports
+
+Generated reports are saved as drafts, invisible to students and parents, until a class's reports are explicitly published:
+
+1. From **Academic → Terminal Reports**, select the class whose reports are ready
+2. Click **Publish Reports** to make that class's reports visible on the student and parent portals
+
+Click **Unpublish Reports** at any time to withdraw a class's reports from view if a correction is needed.
+
 ---
 
 ## Exam Timetable
@@ -108,8 +121,8 @@ Terminal reports are generated automatically from the scores entered. They inclu
 
 1. Go to **Academic → Assignments**
 2. Click **Add Assignment**
-3. Set the **Class**, **Subject**, **Due Date**, and **Description**
-4. Students see the assignment in the student portal
+3. Set the **Class**, **Subject**, **Due Date**, **Description**, and an optional **Attachment** (e.g. a worksheet or reading)
+4. Students see the assignment in the student portal and can submit a typed answer, a file upload, or both
 5. Track submissions and enter grades from **Academic → Assignments → View Submissions**
 
 ---

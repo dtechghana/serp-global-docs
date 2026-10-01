@@ -1,0 +1,60 @@
+# Security Features
+
+sERP includes multi-factor authentication for administrator accounts, automated database backups, and encryption of sensitive personal data at rest.
+
+---
+
+## Multi-Factor Authentication (MFA)
+
+Administrator accounts are required to complete two-factor authentication (2FA) at every login. After entering the correct username and password, a 6-digit One-Time Password (OTP) is sent to the administrator's registered mobile number via SMS.
+
+### MFA Login Process
+
+1. Enter your username and password on the login page and click **Login**
+2. sERP verifies your credentials. If your account has administrator access, you are redirected to the OTP verification page
+3. Check your registered mobile number for the SMS containing your 6-digit OTP
+4. Enter the OTP on the verification screen
+5. Click **Verify OTP** to complete login
+
+!!! note
+    OTPs expire after **5 minutes**. If the OTP expires before you enter it, return to the login page and log in again to receive a fresh OTP.
+
+### Configuring a Mobile Number for MFA
+
+Administrator accounts must have a mobile number registered in order to receive OTP codes. This is managed from the **Change Password** page.
+
+1. Log in as the administrator
+2. From the welcome menu, click **Change Password**
+3. In the **MFA Phone Number** pane, enter or update the mobile number
+4. Click **Save Phone**
+
+!!! warning
+    If no mobile number is configured for an administrator account, the OTP is displayed on-screen as a temporary fallback. This is intended for development and initial setup only. Always ensure a valid mobile number is configured before going live.
+
+!!! note
+    MFA is applied to administrator accounts only. Standard staff, teacher, student, and parent accounts log in with username and password only.
+
+---
+
+## Automated Database Backups
+
+See [Backups & Data Export](backups.md) for details on scheduled database backups.
+
+---
+
+## Data Encryption at Rest
+
+Sensitive personal data is encrypted before it is stored in the database, rather than kept as plain text. This protects the information even if the underlying database is ever accessed directly, outside of the application.
+
+### What Is Encrypted
+
+- Student and guardian contact details (phone numbers, addresses, email addresses)
+- Student health records (blood type, allergies, medical conditions, vaccination history, emergency contacts)
+- Student disciplinary records
+
+!!! note
+    Encryption is applied automatically whenever this data is saved or updated. There is nothing for school staff to configure — records are encrypted transparently and decrypted for display to authorised users within the application.
+
+### Password Storage
+
+User passwords are stored using the bcrypt hashing algorithm, a one-way hash that cannot be reversed to recover the original password. Accounts created under the previous hashing scheme are upgraded automatically, without disruption, the next time that user logs in.

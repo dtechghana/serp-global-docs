@@ -72,6 +72,7 @@ See the dedicated [Grading Scales](grading-scales.md) documentation.
 | Payment Methods | Accepted payment methods shown on receipts |
 | Invoice Prefix | Prefix for auto-generated invoice numbers |
 | Payment Gateway | Paystack secret key for [online payments](../modules/finance.md#online-payments) — required before parents/students can pay fees online |
+| Email Receipts | Toggle automatically emailing parents a PDF copy of the [receipt](../modules/finance.md#receipts) when a payment is recorded, alongside the existing SMS confirmation |
 
 ---
 
@@ -98,6 +99,12 @@ See the dedicated [Grading Scales](grading-scales.md) documentation.
 | Payment Confirmation | Toggle payment receipt SMS |
 
 Test the gateway configuration using the **Send Test SMS** button after saving credentials.
+
+---
+
+## Dashboard Widgets
+
+**Settings → Dashboard Widgets** lets an administrator choose which widgets (e.g. classes, enrollment, staff, attendance summary) appear on the staff dashboard. This is set once for the whole school.
 
 ---
 

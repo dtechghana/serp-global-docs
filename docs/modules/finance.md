@@ -86,6 +86,9 @@ After recording a payment, a printable receipt is generated automatically. To re
 1. Go to **Finance → Payment History**
 2. Find the payment and click **Print Receipt**
 
+!!! note
+    sERP can also automatically email a PDF copy of the receipt to the student's registered guardian email address when a payment is recorded, alongside the existing SMS confirmation. This is configured by your licensee as part of your installation's mail settings.
+
 ---
 
 ## Debtors List

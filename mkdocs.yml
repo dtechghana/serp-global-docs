@@ -98,3 +98,4 @@ nav:
     - System Settings: administration/settings.md
     - Grading Scales: administration/grading-scales.md
     - Backups & Data Export: administration/backups.md
+    - Security Features: administration/security.md
