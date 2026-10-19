@@ -52,9 +52,13 @@ The CA/Exam weight split determines how the terminal score is computed. It is se
 
 The default split is determined by the [academic framework](../deployment/country-profiles.md#academic-frameworks) for the deployment's country.
 
-### CA Components
+### CA / SBA Configuration
 
-Within the CA allocation, you can define multiple sub-components (e.g. Class Test 10%, Homework 5%, Mid-Term 15%). Components are configured in **Settings → Academic Settings → CA Components** and apply globally.
+Beyond the simple CA/Exam split above, you can define a full, reusable score structure — up to eight classwork components (e.g. Class Test, Homework, Mid-Term), a classwork scale, and an exam total/scale — and save it as a named configuration.
+
+1. Go to **Settings → Academic Settings → *(Assessment Label)* Configuration** — the label shown here matches your deployment's own terminology (e.g. **SBA Configuration** for Ghana, **CA Configuration** for Ethiopia, **Évaluation Configuration** for francophone deployments)
+2. Click **Add New** to create a configuration, or review existing ones in the list
+3. To apply a saved configuration to one or more classes at once, go to **Academic → Classes**, tick the classes you want (or **Select All**), choose the configuration from the dropdown, and click **Apply to Selected**
 
 ### Subject Assignment
 
@@ -105,6 +109,10 @@ Generated reports are saved as drafts, invisible to students and parents, until 
 2. Click **Publish Reports** to make that class's reports visible on the student and parent portals
 
 Click **Unpublish Reports** at any time to withdraw a class's reports from view if a correction is needed.
+
+### Broadsheet Report
+
+**Reports → Broadsheet** shows an entire class's scores for every subject side by side in a single grid, with each student's total and class position — useful for a whole-class view that the per-student Terminal Report doesn't give you.
 
 ---
 

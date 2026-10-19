@@ -101,8 +101,12 @@ After recording a payment, a printable receipt is generated automatically. To re
 
 1. Go to **Finance → Debtors**
 2. Filter by **Term** and **Class** (optional)
-3. The list shows all students with outstanding balances
+3. The list shows all students with outstanding balances, with a totals row summing bills, payments, and amounts owed across everyone shown
 4. Use the **Send SMS Reminder** button to send a bulk fee reminder to guardians of all students on the list
+5. Click **Export CSV** to download the current filtered list, including the totals row, as a spreadsheet
+
+!!! tip
+    Add an **As Of Date** to see the debtors position as it stood on a past date, rather than today — useful for reconstructing what was actually owed at a specific point in the term.
 
 ---
 
@@ -129,6 +133,10 @@ Record school expenditure:
 | Class-level fee collection | Finance → Reports → By Class |
 | Income & expenditure statement | Finance → Reports → I&E |
 | End-of-year financial summary | Finance → Reports → Annual Summary |
+| Bill payments received | Finance → Reports → Bill Payment Reports |
+| Non-bill payments received (e.g. canteen top-ups, miscellaneous fees) | Finance → Reports → Non-Bill Payment Reports |
+
+Any report here that offers a **Download PDF** button also offers **Export CSV** alongside it, for further analysis in a spreadsheet. The two payment reports above can also be filtered by searching for a student by name, and both list each payment's Student ID and Class alongside the usual date/amount/method columns.
 
 ---
 

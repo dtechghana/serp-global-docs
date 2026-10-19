@@ -69,6 +69,22 @@ Recipients see new messages via the notification badge in the navigation bar and
 
 ---
 
+## Discussion Forums
+
+Threaded discussion boards, organized by class and (optionally) subject, open to staff, students, and parents.
+
+1. Go to **Forums** in the main navigation
+2. Click **New Thread**
+3. Give it a **Title**, choose **General** (campus-wide) or a specific **Class**, optionally a **Subject**, and write the first post
+4. Click **Post**
+
+Anyone with access to that class (or to the whole campus, for a General thread) can reply. A thread can be pinned to keep it at the top of the list.
+
+!!! note
+    For schools with more than one campus, a staff user restricted to a single campus only sees and can post in threads belonging to their own campus.
+
+---
+
 ## Announcements & Notice Board
 
 Post announcements visible to all or selected user groups:
