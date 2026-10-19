@@ -51,7 +51,7 @@ Click **Activate** on any row. The Active Calendars panel refreshes instantly an
 Click the trash icon on a row and confirm. Two restrictions apply:
 
 - An **active** entry cannot be deleted — activate a different entry first, then delete the old one.
-- The delete button is only shown to users with **administrator access** (access level 100).
+- The delete button is only shown to users with **administrator access**.
 
 ### CA Components
 
@@ -124,7 +124,7 @@ This page is useful for verifying configuration after setup or after an update.
 
 ## Export Data
 
-**Settings → Export Data** is restricted to administrators (access level 100).
+**Settings → Export Data** is restricted to administrators.
 
 Select one or more datasets and click **Export Selected**:
 
