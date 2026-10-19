@@ -39,16 +39,22 @@ Before a student can make a payment, their bill must be prepared from the fee sc
 3. Click **Prepare Bills** — sERP generates a bill for every student in the class based on the fee schedule
 4. You can adjust individual student bills from **Finance → Student Bill** if a student has a discount or additional charge
 
+!!! note
+    A student's fee items only appear as payable on the payment screen once their bill has actually been prepared for that term. Arrears carried over from an already-billed prior term are unaffected and always show, regardless of whether the current term's bill has been prepared yet.
+
 ---
 
 ## Recording Payments
 
 1. Go to **Finance → Collect Payment** (or search for a student)
 2. Find the student by name or ID
-3. Enter the **Amount Paid**, **Payment Date**, **Payment Method** (cash, bank transfer, cheque), and any **Reference**
+3. Enter the **Amount Paid**, **Payment Date**, **Payment Method** (cash, bank deposit, cheque, mobile money), and any **Reference**
 4. Click **Record Payment**
 
 sERP automatically updates the student's outstanding balance and can print a receipt immediately.
+
+!!! note
+    For **Bank Deposit**, the bank field selects one of the school's own accounts (set up under [Banking](#banking)) — the payment is automatically posted there too, updating that account's running balance. For **Cheque**, the bank field instead identifies the *payer's* bank, from a generic reference list, for reconciliation purposes — this is a different field from Bank Deposit's, since a cheque's bank isn't one of the school's own accounts. If a Bank Deposit payment is later cancelled, the posted amount is automatically reversed from the account.
 
 ### Partial and Instalment Payments
 
@@ -107,7 +113,11 @@ Record school expenditure:
 1. Go to **Finance → Expenditure**
 2. Click **Add Expenditure**
 3. Enter the **Date**, **Category**, **Description**, and **Amount**
-4. Click **Save**
+4. Select a **Payment Type** — Cash, Cheque, Bank Deposit, Mobile Money, or Other
+5. Click **Save**
+
+!!! note
+    For Cheque and Bank Deposit, a **Bank Account** field appears — select which of the school's own accounts (set up under [Banking](#banking)) the money is being paid from. Both payment types draw on the school's own account here, since an expenditure cheque is one the school writes itself rather than receives. If no bank account has been set up yet, a warning links directly to the Banking module to add one.
 
 ---
 
@@ -124,11 +134,15 @@ Record school expenditure:
 
 ## Banking
 
-Record bank lodgements and cheque management:
+Manage the school's own bank accounts, and track lodgements and cheque transactions against them:
 
 1. Go to **Finance → Banking**
-2. Log each bank lodgement with amount, bank name, and date
-3. Track cheques received, presented, and cleared
+2. Add each of the school's bank accounts (bank name, account number, account name)
+3. Log each bank lodgement or cheque transaction with amount and date
+4. Each account keeps a running balance, computed from its own transaction history
+
+!!! note
+    This is where "Bank Deposit" payments recorded elsewhere in sERP — fee payments and expenditure — actually post to. A fee payment credits the selected account automatically; an expenditure debits it. Cancelling a Bank Deposit fee payment automatically posts a reversing debit, so the account's balance always reflects what's actually still outstanding. These automatic entries appear in the account's transaction history alongside manually-entered lodgements and cheques, distinguishable by their "finance" source.
 
 ---
 
@@ -238,6 +252,10 @@ Go to **Fixed Assets → Categories** to manage categories. Each category define
 1. Go to **Fixed Assets → Register → Add Asset**
 2. Select a category — the asset code is generated automatically (e.g. `FA-ICT-0001`)
 3. Enter acquisition date, cost, salvage value, useful life, and depreciation method (Straight-Line or Declining Balance)
+4. Choose a **Payment Record** option: **Record a new payment now** (captures payment type, bank account, cheque number as needed, and creates an Expenditure entry for the purchase automatically), **Link an existing expenditure record** (if Accounts already recorded the purchase separately before the asset itself was added to the register), or **No expenditure record** (for an asset that cost the school nothing, e.g. donated)
+
+!!! note
+    Editing an asset's name, cost, or acquisition date later automatically updates its linked expenditure record to match, if it has one. An asset's linked expenditure record (if any) is shown on both its detail view and its edit page.
 
 ### Depreciation
 
