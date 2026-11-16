@@ -102,8 +102,9 @@ After recording a payment, a printable receipt is generated automatically. To re
 1. Go to **Finance → Debtors**
 2. Filter by **Term** and **Class** (optional)
 3. The list shows all students with outstanding balances, with a totals row summing bills, payments, and amounts owed across everyone shown
-4. Use the **Send SMS Reminder** button to send a bulk fee reminder to guardians of all students on the list
-5. Click **Export CSV** to download the current filtered list, including the totals row, as a spreadsheet
+4. Use the **Search by Student Name** field above the table to instantly narrow the list as you type, without reloading it
+5. Use the **Send SMS Reminder** button to send a bulk fee reminder to guardians of all students on the list
+6. Click **Export CSV** to download the current filtered list, including the totals row, as a spreadsheet
 
 !!! tip
     Add an **As Of Date** to see the debtors position as it stood on a past date, rather than today — useful for reconstructing what was actually owed at a specific point in the term.
