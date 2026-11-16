@@ -97,6 +97,7 @@ See the dedicated [Grading Scales](grading-scales.md) documentation.
 | Fee Reminder | Template for fee reminder SMS |
 | Result Notification | Toggle result published SMS |
 | Payment Confirmation | Toggle payment receipt SMS |
+| Enforce two-factor authentication at login? | School-wide MFA toggle — see [Multi-Factor Authentication](security.md#multi-factor-authentication-mfa) |
 
 Test the gateway configuration using the **Send Test SMS** button after saving credentials.
 
