@@ -50,7 +50,7 @@ RFID/NFC boarding and live GPS tracking both run through one standardized device
 !!! warning
     The device secret is shown only once and cannot be retrieved again. If it's lost, rotate it from the devices list and reconfigure the Driver Console app with the new value.
 
-Go to **Transport → Student NFC Cards** to link a physical card's UID to a student — a student has one active card at a time, and assigning a new one automatically revokes the previous one.
+Go to **Transport → Student NFC Cards** to link a physical card's UID to a student. Click into the **Card UID** field and tap the card against a USB NFC reader in keyboard-wedge mode to fill it in automatically (no driver needed), or type the UID in by hand if one isn't available. A student has one active card at a time, and assigning a new one automatically revokes the previous one.
 
 **Transport → Live Map** shows each vehicle's most recent GPS position, reported automatically by its paired tablet whenever its Driver Console app has a route in progress.
 
